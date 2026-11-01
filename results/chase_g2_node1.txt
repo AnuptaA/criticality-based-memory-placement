@@ -1,0 +1,13 @@
+CPU node0 -> mem node1: 173.5 ns
+
+ Performance counter stats for './chase 1':
+
+   203,919,999,206      cpu_clk_unhalted.thread                                     
+   148,241,332,900      cycle_activity.stalls_l3_miss                                   
+
+      61.949544333 seconds time elapsed
+
+      61.287387000 seconds user
+       0.659950000 seconds sys
+
+
