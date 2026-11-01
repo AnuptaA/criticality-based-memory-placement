@@ -1,0 +1,16 @@
+CPU node0 -> mem node0: 107.9 ns
+
+ Performance counter stats for './chase 0':
+
+    77,413,100,820      cycle_activity.stalls_l3_miss                                     (80.00%)
+   130,187,415,175      cpu_clk_unhalted.thread                                       (80.00%)
+   110,271,063,295      offcore_requests_outstanding.cycles_with_demand_data_rd                                     (80.00%)
+   122,170,263,645      offcore_requests_outstanding.demand_data_rd                                     (80.00%)
+       635,055,015      offcore_requests.demand_data_rd                                     (80.00%)
+
+      39.599001060 seconds time elapsed
+
+      39.037241000 seconds user
+       0.560017000 seconds sys
+
+
