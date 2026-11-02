@@ -1,3 +1,4 @@
 numa/chase
 *.o
 src/hnsw_bench
+src/trace_run
