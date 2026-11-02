@@ -1,0 +1,42 @@
+
+efSearch=16
+  per vector: objects=1000000 touched=910772 spearman=0.9686
+    budget  overlap  hot-captures  crit-captures  gap(pts)
+       1%    80.0%         23.4%          23.8%      0.34
+       5%    82.2%         34.3%          34.9%      0.63
+      10%    85.3%         43.7%          44.5%      0.83
+      25%    89.5%         63.7%          64.6%      0.91
+  per 4KB page: objects=125000 touched=125000 spearman=0.9738
+    budget  overlap  hot-captures  crit-captures  gap(pts)
+       1%    85.7%         17.8%          18.0%      0.19
+       5%    83.7%         26.1%          26.4%      0.30
+      10%    85.2%         33.2%          33.6%      0.35
+      25%    89.4%         50.3%          50.7%      0.38
+
+efSearch=64
+  per vector: objects=1000000 touched=990698 spearman=0.9706
+    budget  overlap  hot-captures  crit-captures  gap(pts)
+       1%    74.2%         10.8%          11.1%      0.24
+       5%    80.6%         21.2%          21.7%      0.55
+      10%    84.3%         31.0%          31.7%      0.73
+      25%    88.9%         52.9%          53.8%      0.91
+  per 4KB page: objects=125000 touched=125000 spearman=0.9774
+    budget  overlap  hot-captures  crit-captures  gap(pts)
+       1%    82.6%          7.9%           8.0%      0.09
+       5%    83.6%         15.2%          15.3%      0.18
+      10%    86.5%         22.6%          22.9%      0.22
+      25%    90.1%         41.3%          41.6%      0.29
+
+efSearch=256
+  per vector: objects=1000000 touched=999686 spearman=0.9686
+    budget  overlap  hot-captures  crit-captures  gap(pts)
+       1%    68.1%          5.5%           5.7%      0.23
+       5%    78.9%         15.6%          16.1%      0.55
+      10%    83.5%         25.5%          26.2%      0.72
+      25%    88.8%         48.0%          48.9%      0.89
+  per 4KB page: objects=125000 touched=125000 spearman=0.9787
+    budget  overlap  hot-captures  crit-captures  gap(pts)
+       1%    78.7%          3.8%           3.8%      0.06
+       5%    82.9%         10.8%          10.9%      0.13
+      10%    86.7%         18.4%          18.6%      0.17
+      25%    90.4%         37.7%          38.0%      0.25
