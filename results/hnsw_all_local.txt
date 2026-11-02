@@ -1,0 +1,21 @@
+base=1000000 query=10000 dim=128 gt_per_query=100
+loaded index from /users/Anupta/indexes/sift_hnsw_M16.index
+efSearch= 16  recall@10=0.8075  QPS=11472  latency=87.2 us
+efSearch= 32  recall@10=0.9108  QPS=7038  latency=142.1 us
+efSearch= 64  recall@10=0.9675  QPS=4016  latency=249.0 us
+efSearch=128  recall@10=0.9904  QPS=2178  latency=459.2 us
+efSearch=256  recall@10=0.9974  QPS=1154  latency=866.8 us
+base=1000000 query=10000 dim=128 gt_per_query=100
+loaded index from /users/Anupta/indexes/sift_hnsw_M16.index
+efSearch= 16  recall@10=0.8075  QPS=11633  latency=86.0 us
+efSearch= 32  recall@10=0.9108  QPS=7120  latency=140.4 us
+efSearch= 64  recall@10=0.9675  QPS=4056  latency=246.6 us
+efSearch=128  recall@10=0.9904  QPS=2209  latency=452.7 us
+efSearch=256  recall@10=0.9974  QPS=1164  latency=858.8 us
+base=1000000 query=10000 dim=128 gt_per_query=100
+loaded index from /users/Anupta/indexes/sift_hnsw_M16.index
+efSearch= 16  recall@10=0.8075  QPS=11561  latency=86.5 us
+efSearch= 32  recall@10=0.9108  QPS=7084  latency=141.2 us
+efSearch= 64  recall@10=0.9675  QPS=4057  latency=246.5 us
+efSearch=128  recall@10=0.9904  QPS=2210  latency=452.5 us
+efSearch=256  recall@10=0.9974  QPS=1167  latency=856.9 us

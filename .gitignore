@@ -1,2 +1,3 @@
 numa/chase
 *.o
+src/hnsw_bench
